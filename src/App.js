@@ -23,11 +23,11 @@ export default class App extends Component {
 
     const url = "https://applink.com.br/general_salgado_2671155"
 
-    /*const urlIOS = "https://apps.apple.com/br/app/guia-auriflama/id1573281260"*/
+    const urlIOS = "https://apps.apple.com/br/app/general-salgado/id1603245906"
     const urlGP = "https://play.google.com/store/apps/details?id=br.com.app.gpu2671155.gpua09dca373f43736ad8f75b0c75af8403"
 
-    const title = `Baixe o App de General Salgado pelos links abaixo:${'\n'}${'\n'}Google Play: ${urlGP} ${'\n'}${'\n'}Navegador:`
-
+    const title = `Baixe o App de General Salgado pelos links abaixo:${'\n'}${'\n'}iOS: ${urlIOS} ${'\n'}${'\n'}Google Play: ${urlGP} ${'\n'}${'\n'}Navegador:`
+    
     return(
       <>
         <FacebookShareButton 
